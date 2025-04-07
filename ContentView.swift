@@ -15,14 +15,18 @@ struct ContentView: View {
             .shadow(radius: 10)
         
         TextField("Enter Your Name", text: $name1)
+            .foregroundStyle(.green)
+            .font(.largeTitle)
         TextField("Enter Your Age", text: $age1)
+            .foregroundStyle(.yellow)
+            .font(.title3)
         Button {
             
         } label: {
             Text("Click Me")
         }
-
-
+        
+        
     }
 }
 
