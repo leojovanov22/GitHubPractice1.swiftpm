@@ -8,6 +8,12 @@ struct ContentView: View {
         
         
         TextField("Enter a Name", text: $name1)
+        Button {
+            
+        } label: {
+            Text("Click Me")
+        }
+
     }
 }
 
