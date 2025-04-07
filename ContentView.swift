@@ -5,7 +5,9 @@ struct ContentView: View {
     var body: some View {
         Text("Will")
         Text("Leo")
-        
+            .foregroundStyle(.red)
+            .font(.custom("Chalkduster", size: 35))
+            .shadow(radius: 10)
         
         TextField("Enter a Name", text: $name1)
         Button {
